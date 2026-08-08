@@ -26,10 +26,10 @@ const MainSec = () =>{
                     {
                         MainIcons.map((d, i) =>(
                             <div className="section-b" key={i}>
-                                <d.icon className="icon" />
-                                <h2 className="h2">{d.number}</h2>
-                                <h3 className="h3">{d.title}</h3>
-                                <p className="p">{d.desc}</p>
+                                <d.icon className="icon heading" />
+                                <h2 className="h2 heading">{d.number}</h2>
+                                <h3 className="h3 heading">{d.title}</h3>
+                                <p className="p heading">{d.desc}</p>
                             </div>
                         ))
                     }

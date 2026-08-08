@@ -1,3 +1,4 @@
+import HomeSec from "./HomeSec"
 import MainSec from "./MainSec"
 import Navbar from "./Navbar"
 
@@ -7,6 +8,7 @@ const Home = () =>{
         <div>
             <Navbar/>
             <MainSec/>
+           <HomeSec/>
         </div>
     ) 
 }

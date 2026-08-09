@@ -64,4 +64,67 @@ export const  SetUp = [
         decs: "Add the script to your website. The AI Agent is ready!",
          img: "src/assets/img/IMG_20260808_203721.png"
     },
-]
+];
+import { FaBriefcaseMedical, FaMoneyBillWave, FaBook, FaShoppingCart, FaHotel, FaBuilding, FaPhone, FaCar, FaFilm, FaUtensils, FaDumbbell, FaLock, FaTruck  } from 'react-icons/fa';
+
+export const Icon1 = [
+    {
+        name: "Healthcare",
+        icon: FaBriefcaseMedical
+    },
+    {
+        name: "Truck",
+        icon: FaTruck
+    },
+    {
+        name: "Finance",
+        icon: FaMoneyBillWave
+    },
+    {
+        name: "Education",
+        icon: FaBook
+    },
+    {
+        name: "ShoppingCart",
+        icon: FaShoppingCart
+    },
+    {
+        name: "Hotel",
+        icon: FaHotel
+    },
+    {
+        name: "Real Estate",
+        icon: FaBuilding
+    },
+    {
+        name: "Lock",
+        icon: FaLock
+    }
+];
+
+export const icon2 = [
+    {
+        name: "Consulting",
+        icon: FaPhone
+    },
+    {
+        name: "Automotive",
+        icon: FaCar
+    },
+    {
+        name: "Entertainment",
+        icon: FaFilm
+    },
+    {
+        name: "Food & Beverage",
+        icon: FaUtensils
+    },
+    {
+        name: "Fitness & Wellness",
+        icon: FaDumbbell
+    },
+    {
+        name: "Ecommerce",
+        icon: FaShoppingCart
+    }
+];

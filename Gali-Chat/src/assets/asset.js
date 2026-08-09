@@ -46,3 +46,22 @@ export const  assets  = {
         desc: "Compared with standard support, this AI Agent is available 24/7 for your clients."
     }
 ];
+
+export const  SetUp = [
+    {
+        h3: "Step 1",
+        decs: "Add your website link or your files (PDF, Word, Excel...).",
+       
+        img: "src/assets/img/IMG_20260808_203625.png"
+    },
+    {
+        h3: "Step 2",
+        decs: "Train the AI Agent on your own Knowledge Base.",
+        img: "src/assets/img/IMG_20260808_211217.png"
+    },
+    {
+        h3: "Step 3",
+        decs: "Add the script to your website. The AI Agent is ready!",
+         img: "src/assets/img/IMG_20260808_203721.png"
+    },
+]

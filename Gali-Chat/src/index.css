@@ -233,3 +233,63 @@ p{
   font-size: 1.2rem;
   color: var(--border);
 }
+.icon-sec{
+  padding: 1rem 2rem;
+    .ico{
+          margin: 0 auto;
+          .con{
+            border-radius: 30px;
+            border: 1px solid var(--border);
+            padding: 0 1.3rem;
+            gap: 0.5rem;
+           .ic, h3{
+              font-size: 1rem;
+              margin: 0.6rem 0;
+            }
+          }
+    }
+}
+
+.agent{
+  padding: 6rem 2rem;
+  h3{
+    font-size: 1.2rem;
+    color: var(--bg-col);
+  }
+  h1{
+  color: var(--bg-col);
+  font-size: 2.3rem;
+  font-weight: 800;
+  }
+  p{
+    font-size: 1.1rem;
+  }
+  span{
+    padding: 0 1.3rem;
+    font-size: 0.9rem;
+    color: var(--text);
+  }
+}
+.customer{
+  padding: 3rem 4rem 5rem 2rem;
+  .cust{
+    margin: 0 0.5rem;
+    padding: 0 1rem;
+    .icon{
+      border: 1px solid var(--border);
+      padding: 0.6rem 0.8rem; 
+      border-radius: 10px;
+      width: 20px;
+    }
+    h3{
+      font-size: 1rem;
+      color: var(--bg-col);
+    }
+    p{
+      font-size: 1rem;
+    }
+  }
+  .cust1{
+    margin: 3rem 0.5rem;
+  }
+}

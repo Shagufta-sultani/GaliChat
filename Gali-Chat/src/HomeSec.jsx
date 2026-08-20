@@ -134,7 +134,7 @@ const HomeSec = () =>{
                 </div>
             </section>
 
-            section
+        
         </Fragment>
     )
 }

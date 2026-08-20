@@ -66,3 +66,132 @@ export const  SetUp = [
          img: "src/assets/img/IMG_20260808_203721.png"
     },
 ]
+
+
+// import { HearPulse, CreditCard, BookOpen, ShoppingCart, House, Building, Phone, Car, Clapperboard, Utensils, Dumbbell, sHPPINGbAG, Truck, Scale } from 'lucide-react';
+
+import { FaBriefcaseMedical, FaMoneyBillWave, FaBook, FaShoppingCart, FaHotel, FaBuilding, FaPhone, FaCar, FaFilm, FaUtensils, FaDumbbell, FaLock, FaTruck  } from 'react-icons/fa';
+
+export const Icon1 = [
+    {
+        name: "Healthcare",
+        icon: FaBriefcaseMedical
+    },
+    {
+        name: "Truck",
+        icon: FaTruck
+    },
+    {
+        name: "Finance",
+        icon: FaMoneyBillWave
+    },
+    {
+        name: "Education",
+        icon: FaBook
+    },
+    {
+        name: "ShoppingCart",
+        icon: FaShoppingCart
+    },
+    {
+        name: "Hotel",
+        icon: FaHotel
+    },
+    {
+        name: "Real Estate",
+        icon: FaBuilding
+    },
+    {
+        name: "Lock",
+        icon: FaLock
+    }
+];
+
+export const icon2 = [
+    {
+        name: "Consulting",
+        icon: FaPhone
+    },
+    {
+        name: "Automotive",
+        icon: FaCar
+    },
+    {
+        name: "Entertainment",
+        icon: FaFilm
+    },
+    {
+        name: "Food & Beverage",
+        icon: FaUtensils
+    },
+    {
+        name: "Fitness & Wellness",
+        icon: FaDumbbell
+    },
+    {
+        name: "Ecommerce",
+        icon: FaShoppingCart
+    }
+];
+
+export const AIagent = [
+    {
+        name: "Gali Features",
+        h1: "Help Your Customers Through AI",
+        para: "It's like having your own custom ChatGPT trained for your website and with a sleeker UI.",
+        btn: "Create AI Agent",
+        p: "No credit card required"
+    }
+];
+
+
+import {  RefreshCcw, Share2, Database, EyeOff, Sparkles,  ThumbsUp } from 'lucide-react';
+
+export const customer = [
+    {
+        icon: RefreshCcw ,
+        h3: "Text, PDFs, Links Training",
+        para: "Our AI Agents are trained on a variety of formats."
+    },
+    {
+        icon:  MessageSquare,
+        h3: "24/7 Custom Support",
+        para: "No more waiting for a human to respond to your customers."
+    },
+    {
+        icon:Share2,
+        h3: "Lead Generation",
+        para: "Our AI Agents can help you generate leads."
+    },
+    {
+        icon:Database,
+        h3: "AI Trained on your content",
+        para: "The models are trained on your content for accurate answers."
+    }
+];
+export const customer1 = [
+    {
+        icon: EyeOff,
+        h3: "Privacy Focused",
+        para: "We don't save any of your customer visiting data."
+    },
+    {
+        icon:Sparkles,
+        h3: "Custom Style",
+        para: "Customize the AI Agent to match your website."
+    },
+    {
+        icon: Clock,
+        h3: "5 Minutes Setup",
+        para: "Get your AI Agent up and running in 5 minutes."
+    },
+    {
+        icon:ThumbsUp,
+        h3: "Accurate Answers",
+        para: "Get the right answers to your customers."
+    }
+];
+
+
+
+

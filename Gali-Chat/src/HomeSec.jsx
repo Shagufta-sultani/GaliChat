@@ -1,5 +1,5 @@
 import { Fragment } from "react"
-import { SetUp } from "./assets/asset"
+import { AIagent, customer, customer1, Icon1, icon2, SetUp } from "./assets/asset"
 
 const HomeSec = () =>{
     return(
@@ -21,13 +21,82 @@ const HomeSec = () =>{
                     <button className="btn btn2">Create AI Agent</button>
                     <p className="para2 heading">No credit card required</p>
             </section>
+
             <section  className="">
                 <div className="AI container">
                     <h2 className=" head2">Adaptable AI Agents for <span>Every Industry</span></h2>
                     <p>Our easy-to-use AI Agent can be easily implemented by businesses across all sectors.</p>
 
                 </div>
+
+                <section className="container icon-sec">
+                    <div className="flex icon1">
+                    {
+                        Icon1.map((ic, index) =>(
+                            <div key={index} className="ico">
+                                <div className="flex con">
+                                    <ic.icon className="ic" />
+                                    <h3>{ic.name}</h3>
+                                </div>
+                            </div>
+                        ))
+                    }
+                    
+                </div>
+                <div className="flex icon-sec">
+                    {
+                        icon2.map((ico, ind) =>(
+                            <div key={ind} className="ico">
+                                <div className="flex con">
+                                    < ico.icon className="ic" />
+                                    <h3>{ico.name}</h3>
+                                </div>
+                            </div>
+                        ))
+                    }
+                    
+                </div>
+                </section>
             </section>
+
+            <section className=" agent container">
+                {
+                  AIagent.map((i,n) =>(
+                    <div key={n}>
+                        <h3 className="heading">{i.name}</h3>
+                        <h1 className="heading" >{i.h1}</h1>
+                        <p>{i.para}</p>
+                       <button className="btn btn2">{i.btn}</button><span>{i.p}</span>
+                    </div>
+                  ))
+                }
+            </section>
+
+            <section className=" customer container">
+                <div className="flex">
+                    {
+                 customer.map((i, r) =>(
+                    <div key={r} className="cust">
+                        <i.icon className="icon" />
+                        <h3>{i.h3}</h3>
+                        <p>{i.para}</p>
+                    </div>
+                 ))   
+                }
+                </div>
+                <div className="flex">
+                    {
+                 customer1.map((i, r) =>(
+                    <div key={r} className="cust cust1">
+                        <i.icon className="icon" />
+                        <h3>{i.h3}</h3>
+                        <p>{i.para}</p>
+                    </div>
+                 ))   
+                }
+                </div>
+            </section>
+
         </Fragment>
     )
 }

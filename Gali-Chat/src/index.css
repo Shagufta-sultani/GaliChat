@@ -296,7 +296,7 @@ p{
   }
 }
 
-/* Goobal */
+/* Gobal */
 .gobal{
   padding:1rem 2rem;
   .g-name{
@@ -319,6 +319,7 @@ p{
     height:400px;
     background: linear-gradient(rgba(255, 255, 255, 0.712), rgba(255, 255, 255, 0.815)),
     url(./assets/img/img1.jpg) center/cover;
+    border-radius: 8px;
     .absolute{
       position:absolute;
       z-index:-1;
@@ -340,9 +341,11 @@ p{
   .center{
     padding: 3rem 0;
     text-align: center;
+    /* align-items: center; */
+    /* margin: 0 auto; */
+    p{
+      font-size: 1rem;
   }
-  p{
-    font-size: 1rem;
   }
 }
 .easily .knowledge{
@@ -360,7 +363,4 @@ p{
     font-weight: 800;
   color: var(--bg-col);
   }
-
-
-
 }

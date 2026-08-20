@@ -97,6 +97,44 @@ const HomeSec = () =>{
                 </div>
             </section>
 
+            <section className="container gobal">
+               <div className="flex">
+                 <div className="g-name flex">
+                    <div className="name">
+                       <h3>SA</h3>
+                       <h3>IN</h3>
+                    </div>
+                    <div className="name">
+                        <h3>US</h3>
+                        <h3>DE</h3>
+                        <h3>FR</h3>
+                    </div>
+                </div>
+                <div className="relative">
+                    <div className="absolute">
+                        <h2>50+ Languages</h2>
+                        <h3>Whether your customers are from USA, Spain, Germany, France or anywhere, our AI Agent speaks their language.</h3>
+                    </div>
+                </div>
+               <div className="g-name flex">
+                    <div className="name">
+                        <h3>ES</h3>
+                        <h3>RU</h3>
+                        <h3>IT</h3>
+                    </div>
+                    <div className="name">
+                        <h3>BR</h3>
+                        <h3>JP</h3>
+                    </div>
+                </div>
+               </div>
+                <div className="center">
+                    <button className="btn btn2">Create AI Agent</button>
+                    <p>No credit card required</p>
+                </div>
+            </section>
+
+            section
         </Fragment>
     )
 }

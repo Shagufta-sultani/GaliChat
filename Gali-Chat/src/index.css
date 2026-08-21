@@ -293,3 +293,71 @@ p{
     margin: 3rem 0.5rem;
   }
 }
+/* Gobal */
+.gobal{
+  padding:1rem 2rem;
+  .g-name{
+    gap:2rem;
+    .name{
+      h3{
+        border-radius: 10px;
+        border: 1px solid var(--border);
+        padding:0.8rem 0.8rem;
+        margin:4rem 0;
+        font-size: 1rem;
+        color: #16171de0;
+      }
+    }
+  }
+  .relative{
+     position:relative;
+     z-index:1;
+    width:800px;
+    height:400px;
+    background: linear-gradient(rgba(255, 255, 255, 0.712), rgba(255, 255, 255, 0.815)),
+    url(./assets/img/img1.jpg) center/cover;
+    border-radius: 8px;
+    .absolute{
+      position:absolute;
+      z-index:-1;
+      top:8rem;
+      text-align:center;
+      margin: 0 auto;
+      h2{
+        font-size:2.5rem;
+        font-weight:800;
+        color: #16171dec;
+        margin:0 auto;
+      }
+      h3{
+        font-size:1.4rem;
+        color: var(--border);
+      }
+    }
+  }
+  .center{
+    padding: 3rem 0;
+    text-align: center;
+    p{
+      font-size: 1rem;
+  }
+  }
+}
+.easily .knowledge{
+  background: var(--text-h);
+  text-align:center;
+  .source{
+    margin-top: 3rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+    background: var(--bg);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+  h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+  color: var(--bg-col);
+  }
+}

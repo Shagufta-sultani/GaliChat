@@ -35,7 +35,7 @@ li { list-style: none; }
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 62%;
-  background-color: #eff3ff;
+  /* background-color: #eff3ff; */
   /* background:white; */
   margin: 0;
   padding: 0;
@@ -341,19 +341,24 @@ p{
   .center{
     padding: 3rem 0;
     text-align: center;
-    /* align-items: center; */
-    /* margin: 0 auto; */
     p{
       font-size: 1rem;
   }
   }
 }
-.easily .knowledge{
+.easily{
+  padding-top:1rem ;
+}
+ .knowledge{
+  background: var(--text-h);
   text-align:center;
+  border-radius: 15px;
+  border: 1px solid var(--text);
   .source{
+    margin-top: 3rem;
     font-weight: 600;
-    font-size: 1rem;
-    padding: 0.6rem 1.4rem;
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
     background: var(--bg);
     border-radius: 12px;
     border: 1px solid var(--border);
@@ -362,5 +367,13 @@ p{
     font-size: 2.5rem;
     font-weight: 800;
   color: var(--bg-col);
+  }
+}
+.image{
+  width: 600px;
+  margin: 0 auto;
+  img{
+    width: 100%;
+    border-radius: 15px;
   }
 }

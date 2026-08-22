@@ -1,5 +1,5 @@
 import { Fragment } from "react"
-import { AIagent, customer, customer1, Icon1, icon2, SetUp } from "./assets/asset"
+import { AIagent, customer, customer1, Icon1, icon2, info, SetUp } from "./assets/asset"
 
 const HomeSec = () =>{
     return(
@@ -134,6 +134,21 @@ const HomeSec = () =>{
                 </div>
             </section>
 
+            <section className="easily container">
+                <div className="knowledge">
+                <button className="source">Source</button>
+                <h2 className="heading">Easily import Your Knowledge Base</h2>
+                <p className="heading">You need only 3 minutes to import your knowledge Base.</p>
+                   {
+                       info.map((d, im) =>(
+                           <div className="image" key="im">
+                        <img src={d.img} alt="" />
+                       </div> 
+                    )) 
+                }
+                </div>
+               
+            </section>
         
         </Fragment>
     )

@@ -192,6 +192,11 @@ export const customer1 = [
     }
 ];
 
+export const info = [
+    { 
+        img: "src/assets/img/IMG2.png"
+    }
+];
 
 
 

@@ -185,3 +185,9 @@ export const customer1 = [
         para: "Get the right answers to your customers."
     }
 ];
+
+export const info = [
+    { 
+        img: "src/assets/img/IMG2.png"
+    }
+];

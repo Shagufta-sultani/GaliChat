@@ -343,9 +343,14 @@ p{
   }
   }
 }
-.easily .knowledge{
+.easily{
+  padding-top:1rem ;
+}
+ .knowledge{
   background: var(--text-h);
   text-align:center;
+  border-radius: 15px;
+  border: 1px solid var(--text);
   .source{
     margin-top: 3rem;
     font-weight: 600;
@@ -359,5 +364,13 @@ p{
     font-size: 2.5rem;
     font-weight: 800;
   color: var(--bg-col);
+  }
+}
+.image{
+  width: 600px;
+  margin: 0 auto;
+  img{
+    width: 100%;
+    border-radius: 15px;
   }
 }

@@ -34,7 +34,7 @@ const MainSec = () => {
                     <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/gali/dashboard.png" alt=""
                      class="absolute z-10 rounded-2xl -translate-x-1/2 left-1/2  top-130 w-full max-w-[640px] lg:w-1/2 shadow-2xl"/>
                     <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/gali/chat.png"
-                     alt="" class="absolute z-20 -translate-x-1/2 left-1/2 mt-2 md:mt-12 top-130 rounded-lg w-24 max-w-[240px] md:w-12 shadow-xl" />
+                     alt="" class="absolute z-20 -translate-x-1/2 left-1/2 mt-2 md:mt-12 top-140 rounded-lg w-130 max-w-[240px] shadow-xl" />
                 </div>
             </main>
             <section class="bg-gray-900">

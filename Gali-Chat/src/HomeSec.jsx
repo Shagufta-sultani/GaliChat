@@ -185,10 +185,6 @@ const HomeSec = () =>{
                     </div>
                 </div>
                 <div class="text-center mt-12 py-12 md:py-32 bg-[url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/gali/worldmap.png')] bg-contain bg-center bg-no-repeat">
-                  <div class="relative align-middle select-none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-12 
-                  max-w-[48px] h-12 max-h-[48px] rounded-lg text-sm border text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] p-6 !opacity-100 border-gray-300 mb-4">
-                    <span class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"></span>
-                  </div>
                         <h2 class="block antialiased tracking-normal font-sans text-4xl leading-[1.3] mb-4 font-extrabold text-gray-900">50+ Languages</h2>
                         <p class="block antialiased font-sans text-base leading-relaxed mx-auto font-bold mt-2 !text-2xl max-w-2xl text-gray-800">
                             Whether your customers are from USA, Spain, Germany, France or anywhere, our AI Agent speaks their language.</p>

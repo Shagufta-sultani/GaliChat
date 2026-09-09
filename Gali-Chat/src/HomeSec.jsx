@@ -272,6 +272,76 @@ const HomeSec = () =>{
                     )) 
                 }
                 </div>
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class=" relative flex flex-col bg-clip-border text-gray-700 mb-8 text-center pt-6 bg-gray-100 border border-gray-300 rounded-2xl shadow-sm">
+                  <div class="p-6 md:px-12">
+                    <div class="relative items-center font-sans font-bold whitespace-nowrap
+                     select-none py-1.5 px-3 text-xs rounded-lg bg-white border border-gray-300
+                      text-gray-900 capitalize inline-block mb-2">
+                        <span>Based on AI</span>
+                    </div>
+                    <h3 class="block antialiased tracking-normal font-sans text-3xl leading-snug text-blue-gray-900 font-bold">
+                        Train Advanced GPT
+                    </h3>
+                    <p class="block antialiased font-sans font-light mx-auto mt-2 mb-8 text-lg text-gray-600 max-w-lg">
+                        Gali Chat is based on the most advanced AI and NLP technologies available.
+                    </p>
+                    <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/gali/train-chat.png" alt="" class="mx-auto mt-8" />
+                  </div>
+                </div>
+
+                <div class=" relative flex flex-col bg-clip-border text-gray-700 mb-8 text-center pt-6 bg-gray-100 border border-gray-300 rounded-2xl shadow-sm">
+                  <div class="p-6 md:px-12">
+                    <div class="relative items-center font-sans font-bold whitespace-nowrap
+                     select-none py-1.5 px-3 text-xs rounded-lg bg-white border border-gray-300
+                      text-gray-900 capitalize inline-block mb-2">
+                        <span>Visual look</span>
+                    </div>
+                    <h3 class="block antialiased tracking-normal font-sans text-3xl leading-snug text-blue-gray-900 font-bold">
+                        Customize and Match Your Brand
+                    </h3>
+                    <p class="block antialiased font-sans font-light mx-auto mt-2 mb-8 text-lg text-gray-600 max-w-lg">
+                        A AI Agent that is distinctly branded can differentiate your customer service from competitors.
+                    </p>
+                    <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/gali/customize-chat.png" alt="" class="mx-auto mt-8" />
+                  </div>
+                </div>
+              </div>
+            </section>
+
+             <section class="container mx-auto py-8">
+                <div class="relative flex flex-col bg-clip-border text-gray-700 bg-gray-200 border border-gray-300 rounded-2xl mt-8 shadow-sm">
+                    <div class="p-6">
+                        <div class="md:flex items-center">
+                            <div class="block my-auto pl-6">
+                                <div class="relative items-center font-sans font-bold whitespace-nowrap select-none py-1.5 px-3 text-xs rounded-lg bg-white border 
+                                  border-gray-300 text-gray-900 capitalize inline-block mb-4">
+                                    <span>Ready to use</span>
+                                </div>
+                                <h3 class="block antialiased tracking-normal font-sans text-3xl leading-snug text-blue-gray-900 mb-4 font-bold">
+                                    Add it to Your Website
+                                </h3>
+                                <p class="block antialiased font-sans text-base leading-relaxed text-gray-600 font-medium">
+                                    No need for coding skills or technical support from your team. With just a few clicks our AI Agent is ready!
+                                </p>
+                                <div class="mt-6 text-lef">
+                                    <div class="flex items-center gap-">
+                                        <button class="align-middle select-none font-sans font-bold text-center transition-all disabled:opacity-50 
+                                          disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 bg-gray-900 text-white shadow-md 
+                                          shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none
+                                          active:opacity-[0.85] active:shadow-none normal-case rounded-full">
+                                            Create AI Agent
+                                        </button>
+                                        <span class="text-gray-500 text-sm">No credit card required</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ml-auto">
+                                <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/gali/add-chat.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         
         </Fragment>

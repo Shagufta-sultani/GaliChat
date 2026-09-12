@@ -286,7 +286,8 @@ const HomeSec = () =>{
                     <p class="block antialiased font-sans font-light mx-auto mt-2 mb-8 text-lg text-gray-600 max-w-lg">
                         Gali Chat is based on the most advanced AI and NLP technologies available.
                     </p>
-                    <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/gali/train-chat.png" alt="" class="mx-auto mt-8" />
+                      <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/gali/train-chat.png" alt=""
+                     class="mx-auto mt-8"/>
                   </div>
                 </div>
 
@@ -303,13 +304,14 @@ const HomeSec = () =>{
                     <p class="block antialiased font-sans font-light mx-auto mt-2 mb-8 text-lg text-gray-600 max-w-lg">
                         A AI Agent that is distinctly branded can differentiate your customer service from competitors.
                     </p>
-                    <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/gali/customize-chat.png" alt="" class="mx-auto mt-8" />
+                      <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/gali/customize-chat.png"
+                     alt="" class="mx-auto mt-8" />
                   </div>
                 </div>
               </div>
             </section>
 
-             <section class="container mx-auto py-8">
+             <section class="container mx-auto">
                 <div class="relative flex flex-col bg-clip-border text-gray-700 bg-gray-200 border border-gray-300 rounded-2xl mt-8 shadow-sm">
                     <div class="p-6">
                         <div class="md:flex items-center">
@@ -337,7 +339,7 @@ const HomeSec = () =>{
                                 </div>
                             </div>
                             <div class="ml-auto">
-                                <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/gali/add-chat.png"/>
+                                <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/gali/add-chat.png" alt="" />
                             </div>
                         </div>
                     </div>

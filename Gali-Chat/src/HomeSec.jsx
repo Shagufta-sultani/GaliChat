@@ -345,7 +345,90 @@ const HomeSec = () =>{
                     </div>
                 </div>
             </section>
-        
+            <section class="container mx-auto py-10">
+                <div class="flex max-w-6xl flex-col px-2">
+                    <p class="block antialiased font-sans text-base leading-relaxed font-bold text-gray-900 mb-2"> Gali Testimonials</p>
+                    <h3 class="block antialiased tracking-normal font-sans text-3xl leading-snug text-blue-gray-900 font-extrabold">What our clients say</h3>
+                    <p class="block antialiased font-sans max-w-2xl font-normal text-gray-600 mb-8 text-lg">See what other people are thinking about our solution.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                        <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700">
+                            <div class="p-6">
+                                <div class="inline-flex items-center mb-3 text-amber-500" >
+                                    <span>
+                                        <svg class="inline-flex items-center mb-3 text-amber-500" viewBox="0 0 24 24" fill="currentColor" ></svg>
+                                    </span>
+                                </div>
+                                <p class="block antialiased font-sans font-normal text-inherit text-base !font-semibold !text-gray-800" >
+                                    “It doesn't just feel like a tool; it feels like an extension of our team. The feedback from our customers has been overwhelmingly positive.”
+                                </p>
+                                <div class="mt-5 flex items-center justify-between gap-5">
+                                    <div Taclass="!p-0">
+                                        <h6 class="block antialiased tracking-normal font-sans text-base leading-relaxed text-blue-gray-900 font-bold">
+                                            Taqi Ahmad
+                                        </h6>
+                                        <p class="block antialiased font-sans text-inherit mb-4 text-base font-normal !text-gray-500">
+                                            Custom Support
+                                            <a href="https://creative-tim.com/" target="_blank" rel="noreferrer" >
+                                                <span class="ml-1">@CreativeTim</span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700">
+                            <div class="p-6">
+                                <div class="inline-flex items-center mb-3 text-amber-500" >
+                                    <span>
+                                        <svg class="inline-flex items-center mb-3 text-amber-500" viewBox="0 0 24 24" fill="currentColor" ></svg>
+                                    </span>
+                                </div>
+                                <p class="block antialiased font-sans font-normal text-inherit text-base !font-semibold !text-gray-800" >
+                                    “It’s exactly what I was looking for. It engages our site visitors with the right answers and collects their information, so we get more leads.”
+                                </p>
+                                <div class="mt-5 flex items-center justify-between gap-5">
+                                    <div Taclass="!p-0">
+                                        <h6 class="block antialiased tracking-normal font-sans text-base leading-relaxed text-blue-gray-900 font-bold">
+                                            Adam Kempinski
+                                        </h6>
+                                        <p class="block antialiased font-sans text-inherit mb-4 text-base font-normal !text-gray-500">
+                                           Customer Success
+                                            <a href="https://creative-tim.com/" target="_blank" rel="noreferrer" >
+                                                <span class="ml-1">@MaterialTailwind</span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700">
+                            <div class="p-6">
+                                <div class="inline-flex items-center mb-3 text-amber-500" >
+                                    <span>
+                                        <svg class="inline-flex items-center mb-3 text-amber-500" viewBox="0 0 24 24" fill="currentColor" ></svg>
+                                    </span>
+                                </div>
+                                <p class="block antialiased font-sans font-normal text-inherit text-base !font-semibold !text-gray-800" >
+                                    “This AI Agent offers support whenever the clients need it, making our service truly 24/7. It’s a game-changer, as we don't have a big team to handle all the requests.”
+                                </p>
+                                <div class="mt-5 flex items-center justify-between gap-5">
+                                    <div Taclass="!p-0">
+                                        <h6 class="block antialiased tracking-normal font-sans text-base leading-relaxed text-blue-gray-900 font-bold">
+                                            Tina Feraro
+                                        </h6>
+                                        <p class="block antialiased font-sans text-inherit mb-4 text-base font-normal !text-gray-500">
+                                            Chief Designer
+                                            <a href="https://creative-tim.com/" target="_blank" rel="noreferrer" >
+                                                <span class="ml-1">@IRA Design</span>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </Fragment>
     )
 }

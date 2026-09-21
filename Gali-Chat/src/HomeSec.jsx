@@ -500,6 +500,100 @@ const HomeSec = () =>{
                     <p class="text-gray-500 text-sm block mt-3 ml-4">No credit card required</p>
                 </div>
             </section>
+
+             <section class="px-8 py-10 ">
+                <div class=" mx-auto">
+                    <div class="mb-24">
+                       <h2 class="block antialiased tracking-normal font-sans text-4xl leading-[1.3] text-blue-gray-900 mb-4 font-extrabold !leading-snug">
+                          Frequently asked questions (FAQs)
+                        </h2> 
+                        <p class="block antialiased font-sans font-light text-lg text-gray-600 lg:w-3/5">
+                          See what other people are asking. Don't forget to try the AI Agent available on the website for more information about our tool.
+                        </p>
+                    </div>
+                    <div class="grid gap-x-8 md:grid-cols-1 lg:grid-cols-2">
+                        <div class="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none">
+                            <div class="relative bg-clip-border mt-4 rounded-xl overflow-hidden bg-white text-gray-700 mx-0">
+                                <h4 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900 pb-6">What is Gali?</h4>
+                            </div>
+                            <div class="p-6 px-0 pt-0">
+                                <p class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-500">
+                                    Gali is an advanced, smart AI Agent designed with the latest technology to interact with users by understanding their questions and 
+                                    providing accurate answers. It can comprehend and respond to inquiries in real-time, 24 hours a day, seven days a week. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none">
+                            <div class="relative bg-clip-border mt-4 rounded-xl overflow-hidden bg-white text-gray-700 mx-0">
+                                <h4 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900 pb-6">
+                                    How do I add Gali Chat to my website?
+                                </h4>
+                            </div>
+                            <div class="p-6 px-0 pt-0">
+                                <p class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-500">
+                                   To add Gali Chat to your website, you need to create an account, customize your AI Agent, and then copy the 
+                                   code snippet provided to your website’s HTML. The AI Agent will then be live on your website, ready to assist your customers. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none">
+                            <div class="relative bg-clip-border mt-4 rounded-xl overflow-hidden bg-white text-gray-700 mx-0">
+                                <h4 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900 pb-6">
+                                    Can I use Gali for free?
+                                </h4>
+                            </div>
+                            <div class="p-6 px-0 pt-0">
+                                <p class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-500">
+                                 Yes, Gali offers a free plan that includes all the basic features you need to get started but has limited functionalities.
+                                  You can upgrade to a paid plan at any time to access more advanced features.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none">
+                            <div class="relative bg-clip-border mt-4 rounded-xl overflow-hidden bg-white text-gray-700 mx-0">
+                                <h4 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900 pb-6">
+                                    How do I train my AI Agent?
+                                </h4>
+                            </div>
+                            <div class="p-6 px-0 pt-0">
+                                <p class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-500">
+                                    To train your AI Agent, you need to provide it with the necessary information, such as your business support 
+                                    documents, FAQs, website links and other relevant data. The AI Agent will then use this information
+                                     to learn and improve its responses over time.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none">
+                            <div class="relative bg-clip-border mt-4 rounded-xl overflow-hidden bg-white text-gray-700 mx-0">
+                                <h4 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900 pb-6">
+                                    Will I see the AI Agents messages history?
+                                </h4>
+                            </div>
+                            <div class="p-6 px-0 pt-0">
+                                <p class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-500">
+                                    Yes, you can view the AI Agents message history in the dashboard, where you can see all the conversations 
+                                    it has had with users. This feature allows you to monitor the AI Agents performance and make any necessary
+                                     adjustments to improve its responses.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none">
+                            <div class="relative bg-clip-border mt-4 rounded-xl overflow-hidden bg-white text-gray-700 mx-0">
+                                <h4 class="block antialiased tracking-normal font-sans text-2xl font-semibold leading-snug text-blue-gray-900 pb-6">
+                                    How does it takes for the AI Agent to be live on my website?
+                                </h4>
+                            </div>
+                            <div class="p-6 px-0 pt-0">
+                                <p class="block antialiased font-sans text-base leading-relaxed text-inherit font-normal !text-gray-500">
+                                   Once you have created an account and customized your AI Agent, it will be live on your website 
+                                   immediately after you copy and paste the code snippet provided. You can then start using the 
+                                   AI Agent to interact with your customers and provide them with the information they need.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </Fragment>
     )
 }
